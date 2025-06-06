@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22
+  build:
+    commands:
+      - echo "Running Playwright tests..."
+      - npm install
+      - npx playwright install
+      - npx playwright test
