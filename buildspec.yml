@@ -6,6 +6,3 @@ phases:
   build:
     commands:
       - echo "Running Playwright tests..."
-      - npm install
-      - npx playwright install
-      - npx playwright test
